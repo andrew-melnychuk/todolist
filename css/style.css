@@ -176,6 +176,14 @@ main #list {
 
 }
 
+@media screen and (orientation: landscape) and (max-width: 500px) {
+  
+  .wrapper {
+    min-width: 100vw;
+  }
+
+}
+
 @media screen and (min-width: 800px) and (min-height: 800px) and (orientation: portrait) {
   
   main {
