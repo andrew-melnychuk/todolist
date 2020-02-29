@@ -53,7 +53,6 @@ header {
 main {
   width: 100%;
   min-height: 400px;
-  max-height: 500px;
 }
 
 main #list {
