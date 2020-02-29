@@ -1,8 +1,9 @@
 html {
-  font-family: Titillium Web, sans-serif; 
+  font-family: Titillium Web, sans-serif;
 }
 
 body {
+  min-height: -webkit-fill-available;
   min-height: 100vh;
   display: flex;
   background: rgb(110,47,152);
@@ -52,6 +53,7 @@ header {
 main {
   width: 100%;
   min-height: 400px;
+  max-height: 500px;
 }
 
 main #list {
@@ -139,6 +141,7 @@ main #list {
   
   .wrapper {
     min-width: 100%;
+    min-height: -webkit-fill-available;
     min-height: 100vh;
   }
 
