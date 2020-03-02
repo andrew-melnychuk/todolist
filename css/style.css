@@ -5,8 +5,8 @@ html {
 body {
   min-height: 100vh;
   display: flex;
-  background: rgb(110,47,152);
-  background: linear-gradient(0deg, rgba(110,47,152,1) 0%, rgba(204,11,11,1) 50%, rgba(255,150,0,1) 100%);
+  background: rgb(232,203,192);
+  background: linear-gradient(180deg, rgba(232,203,192,1) 0%, rgba(99,111,164,1) 100%);
 }
 
 .wrapper {
