@@ -1,10 +1,10 @@
 'use strict'
 
 // Select elements
-const clear = document.querySelector('#clear');
-const date = document.querySelector('#date');
-const list = document.querySelector('#list');
-const input = document.querySelector('#input');
+const clear = document.getElementById('clear');
+const date = document.getElementById('date');
+const list = document.getElementById('list');
+const input = document.getElementById('input');
 
 // Classes names
 const CHECK = 'fa-check-circle';
