@@ -5,8 +5,12 @@ html {
 body {
   min-height: 100vh;
   display: flex;
-  background: rgb(232,203,192);
-  background: linear-gradient(180deg, rgba(232,203,192,1) 0%, rgba(99,111,164,1) 100%);
+  background: rgb(232, 203, 192);
+  background: linear-gradient(
+    180deg,
+    rgba(232, 203, 192, 1) 0%,
+    rgba(99, 111, 164, 1) 100%
+  );
 }
 
 .wrapper {
@@ -23,7 +27,7 @@ header {
   background-size: cover;
   position: relative;
   width: 100%;
-  min-height: 210px;  
+  min-height: 210px;
 }
 
 #clear {
@@ -47,7 +51,6 @@ header {
   font-size: 24px;
 }
 
-
 /* Main */
 main {
   width: 100%;
@@ -61,13 +64,12 @@ main #list {
 
 .item {
   box-sizing: border-box;
-  list-style: none; 
+  list-style: none;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 8px 0;
   min-height: 40px;
 }
-
 
 .item .fa-circle-thin {
   font-size: 24px;
@@ -98,7 +100,7 @@ main #list {
 
 .lineThrough {
   text-decoration: line-through;
-  color: #777
+  color: #777;
 }
 
 .fa-check-circle {
@@ -136,7 +138,6 @@ main #list {
 }
 
 @media screen and (orientation: portrait) {
-  
   .wrapper {
     min-width: 100%;
     min-height: 100vh;
@@ -150,16 +151,14 @@ main #list {
   main #list {
     max-height: calc(100vh - 220px);
   }
-
 }
 
 @media screen and (orientation: landscape) {
-  
   .wrapper {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
     min-width: 500px;
   }
 
@@ -171,21 +170,17 @@ main #list {
 
   .add-item {
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
   }
-
 }
 
 @media screen and (orientation: landscape) and (max-width: 500px) {
-  
   .wrapper {
     min-width: 100vw;
   }
-
 }
 
 @media screen and (min-width: 800px) and (min-height: 800px) and (orientation: portrait) {
-  
   main {
     min-height: 500px;
   }
@@ -194,5 +189,4 @@ main #list {
     max-height: calc(100vh - 220px);
     overflow: auto;
   }
-
 }
